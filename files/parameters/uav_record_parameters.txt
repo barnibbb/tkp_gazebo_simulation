@@ -1,0 +1,3 @@
+odometry topic: /odom
+gnss topic: /navsat/fix
+image topic: /uav/camera/image_raw

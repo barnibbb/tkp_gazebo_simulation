@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+    <arg name="model" default="$(find tkp_gazebo_simulation)/urdf/uav.xacro"/>
+    <arg name="x_pos" default="0.0"/>
+    <arg name="y_pos" default="0.0"/>
+    <arg name="z_pos" default="20.45"/>
+
+
+    <!-- Launch Gazebo world -->
+    <include file="$(find tkp_gazebo_simulation)/launch/world.launch" />
+
+    <!-- Find robot description and send urdf to param server -->
+    <param name="robot_description" command="$(find xacro)/xacro $(arg model)" />
+
+    <!-- Send joint values -->
+    <node name="joint_state_publisher" pkg="joint_state_publisher" type="joint_state_publisher" >
+        <param name="use_gui" value="false" />
+    </node>
+
+    <!-- Send robot states to tf -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen" />
+    
+    <!-- Spawn uav -->
+    <node name="urdf_spawner" pkg="gazebo_ros" type="spawn_model" respawn="false" output="screen" 
+        args="-urdf -param robot_description -model uav -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos)"/>
+
+</launch>

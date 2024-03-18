@@ -1,0 +1,285 @@
+<?xml version="1.0"?>
+<sdf version="1.5">
+  <world name="default">
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 20 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+    <include>
+      <uri>model://image_plane</uri>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>0 -3.1 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>0 2.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>4.1 -5.4 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>3.8 3.2 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>-4.2 -2.55 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>-3.9 2.3 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>8.11 -4.7 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>7.5 2.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>-8.3 -1.45 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>-8 2.1 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>7.5 8.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>3.5 9.4 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>-1.5 7.5 0 0 0 0</pose>
+    </include>
+
+
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>26.25 29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>18.75 29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>11.25 29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>3.75 29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-26.25 29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-18.75 29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-11.25 29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-3.75 29.9 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>26.25 -29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>18.75 -29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>11.25 -29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>3.75 -29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-26.25 -29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-18.75 -29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-11.25 -29.9 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-3.75 -29.9 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>29.9 26.25 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>29.9 18.75 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>29.9 11.25 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>29.9 3.75 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>29.9 -26.25 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>29.9 -18.75 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>29.9 -11.25 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>29.9 -3.75 0 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-29.9 26.25 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-29.9 18.75 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-29.9 11.25 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-29.9 3.75 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-29.9 -26.25 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-29.9 -18.75 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-29.9 -11.25 0 0 0 1.57</pose>
+    </include>
+    <include>
+      <uri>model://grey_wall</uri>
+      <pose>-29.9 -3.75 0 0 0 1.57</pose>
+    </include>
+
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>7 26 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>9 27 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>11 26 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>-10.0 26 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>-12.5 25.5 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>27 0 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>25.5 2 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>26.7 -2 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>27.5 4.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://pine_tree</uri>
+      <pose>27.7 -4.1 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>25.8 7.5 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://oak_tree</uri>
+      <pose>24.9 -7.6 0 0 0 0</pose>
+    </include>
+
+    <include>
+      <uri>model://house_1</uri>
+      <pose>21 23 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://house_2</uri>
+      <pose>0 -25 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://house_3</uri>
+      <pose>0 27 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://police_station</uri>
+      <pose>-21 19 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://fire_station</uri>
+      <pose>-17 -24 0 0 0 0</pose>
+    </include>
+    <include>
+      <uri>model://salon</uri>
+      <pose>12 -26 0 0 0 3.14</pose>
+    </include>
+    <include>
+      <uri>model://post_office</uri>
+      <pose>22 -27 0 0 0 0</pose>
+    </include>
+  </world>
+</sdf>      

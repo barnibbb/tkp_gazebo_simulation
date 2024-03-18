@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>tkp_gazebo_simulation</name>
+  <version>0.0.0</version>
+  <description>The gazebo simulation package for the TKP-V project</description>
+
+  <maintainer email="bugar.meszaros.barnabas@gmail.com">Barnabas Bugar-Meszaros</maintainer>
+
+  <license>MIT</license>
+
+  <author email="bugar.meszaros.barnabas@gmail.com">Barnabas Bugar-Meszaros</author>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <buildtool_depend>roscpp</buildtool_depend>
+  <buildtool_depend>rospy</buildtool_depend>
+  <buildtool_depend>geometry_msgs</buildtool_depend>
+  <buildtool_depend>nav_msgs</buildtool_depend>
+  <buildtool_depend>sensor_msgs</buildtool_depend>
+  <buildtool_depend>image_transport</buildtool_depend>
+  <buildtool_depend>cv_bridge</buildtool_depend>
+
+</package>

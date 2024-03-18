@@ -1,0 +1,4 @@
+linear velocity big: 7
+linear velocity: 3
+x tolerance: 0.2
+y tolerance: 0.2

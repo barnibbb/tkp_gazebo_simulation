@@ -1,0 +1,4 @@
+angular p: 0.5
+linear velocity: 0.2
+distance tolerance: 0.3
+angle tolerance: 0.1
